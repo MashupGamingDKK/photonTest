@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   connectionButton: {fileID: 1810270526}
-  RoomSize: 4
+  RoomSize: 5
 --- !u!1 &1551494338
 GameObject:
   m_ObjectHideFlags: 0
