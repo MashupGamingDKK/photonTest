@@ -29,7 +29,7 @@ public class LobbyController : MonoBehaviourPunCallbacks
     }
     void CreateRoom()
     {
-        int RanRoomNum = Random.Range(0, 1000);
+        int RanRoomNum = 1;//Random.Range(0, 1000);
         Debug.Log("New Room ID " + RanRoomNum);
         RoomOptions roomOps = new RoomOptions() { IsVisible = true, IsOpen = true, MaxPlayers = (byte)RoomSize };
         PhotonNetwork.CreateRoom("Room" + RanRoomNum, roomOps);
