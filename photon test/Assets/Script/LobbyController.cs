@@ -15,6 +15,7 @@ public class LobbyController : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.AutomaticallySyncScene = true;
         connectionButton.gameObject.SetActive(true);
+
     }
     public void StartConnection()
     {
