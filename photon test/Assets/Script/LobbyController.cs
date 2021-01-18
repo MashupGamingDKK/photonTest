@@ -13,11 +13,12 @@ public class LobbyController : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     public override void OnConnectedToMaster()
     {
-        PhotonNetwork.AutomaticallySyncScene = true;
-
+       
     }
     public void StartConnection()
     {
+        PhotonNetwork.AutomaticallySyncScene = true;
+
         connectionButton.status = 2;
         PhotonNetwork.JoinRandomRoom();
         Debug.Log("Start Connection");
